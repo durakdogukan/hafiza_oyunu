@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Hafıza Oyunu</title>
+
+    <link rel="stylesheet" href="css/hafizaoyunu.css">
+</head>
+<body>
+<section class="memory-game">
+
+    <div class="containerdiv">
+  <h1>Hafıza Oyunu</h1>
+  <div id="score-panel">
+    <div class="leftdiv">
+        <ul class="stars">
+            <li><p id="tiklama">Deneme Sayisi  = 0</p></li> <br>           
+            <li><p id="eslesen">Eşleşen Sayisi  = 0</p></li> <br>
+            <li><p id="gecenSaniye">Süre = 0 Dakika 0 Saniye </p></li>
+        </ul>
+        
+       
+      <ul class="stars">
+        <li><i class="fa fa-star"></i></li>
+        <li><i class="fa fa-star"></i></li>
+        <li><i class="fa fa-star"></i></li>
+      </ul>
+    </div>
+   
+
+  </div>
+
+</div>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/sweetalert2/3.0.3/sweetalert2.min.js'></script>
+    <div class="memory-card" data-framework="aurelia">
+        <img class="front-face" src="img/aurelia.svg" alt="Aurelia" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="aurelia">
+        <img class="front-face" src="img/aurelia.svg" alt="Aurelia" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+        <img class="front-face" src="img/vue.svg" alt="Vue" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="vue">
+        <img class="front-face" src="img/vue.svg" alt="Vue" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+        <img class="front-face" src="img/angular.svg" alt="Angular" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="angular">
+        <img class="front-face" src="img/angular.svg" alt="Angular" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+        <img class="front-face" src="img/ember.svg" alt="Ember" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="ember">
+        <img class="front-face" src="img/ember.svg" alt="Ember" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+        <img class="front-face" src="img/backbone.svg" alt="Backbone" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="backbone">
+        <img class="front-face" src="img/backbone.svg" alt="Backbone" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="react">
+        <img class="front-face" src="img/react.svg" alt="React" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="react">
+        <img class="front-face" src="img/react.svg" alt="React" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+</section>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/sweetalert2/3.0.3/sweetalert2.min.js'></script>
+<script src="js/hafizaoyunu.js"></script>
+</body>
+
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+
+<body onload="Reset()" onunload="Stop()"><center><form name="theTimer" style="visibility: hidden">
+   <tr>      <td colspan=3 align=center>
+         <input type=text name="theTime" size=5>      </td>   </tr>
+       
+   </form></center>
+</body>
+</html>
